@@ -1,0 +1,395 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+.work{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+}
+.work .header{
+}
+.work .header,.work .footer{
+  width: 100%;
+  background-color: #333333;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.work .footer{
+  margin-bottom: 0px;
+}
+.work .header .top{
+  background-color: #444444;
+}
+.work .header .top .buttons ul, .work .footer .buttons ul{
+  list-style: none;
+  padding: 15px 0 12px 0;
+  text-align: center;
+  width: 100%;
+}
+.work .header .top .buttons ul li, .work .footer .buttons ul li{
+  display: inline-block;
+  margin: 0 10px;
+  line-height: 1;
+  padding-bottom: 3px;
+  position: relative;
+  width: auto;
+}
+.work .header .top .buttons ul li a, .work .footer .buttons ul li a{
+  padding: 6px 6px 4px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.work .header .top .buttons ul li a.activo, .work .footer .buttons ul li a.activo{
+  background-color: #006abf;
+}
+.work .header .top .buttons ul li a:hover, .work .footer .buttons ul li a:hover{
+  background-color: #505050;
+}
+.work .header .bottom{
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+.work .header .bottom .nombre{
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+.work .header .bottom .profesion{
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+.work .footer .derechos{
+  text-align: center;
+  color: #a0a0a0;
+  margin-top: 10px;
+  padding: 0px 10px 100px 10px;
+}
+.work .footer .derechos p{
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+/* INDEX AND PORFOLIO */
+.work .porfolio{
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  font-size: 0;
+}
+.work .porfolio .works{
+  width: 100%;
+}
+.work .porfolio .works .category{
+  margin-bottom: 15px;
+  width: 100%;
+  text-align: left;
+}
+.work .porfolio .works .category .category-name{
+  color: #444444;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.work .porfolio .works .category .category-name a{
+  color: #006abf;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 5px;
+  text-decoration: none
+}
+.work .porfolio .works .previousWork{
+  background-color: #e2e2e2
+}
+.work .porfolio .works .category .year{
+  color: #444444;
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.work .porfolio .works .graphic{
+	display: inline-block;
+	vertical-align: top;
+	max-width: 315px;
+	text-decoration: none;
+	margin-right: 4px;
+	margin-bottom: 35px;
+	border: 1px solid #ebeaea;
+	padding-bottom: 10px;
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+}
+.work .porfolio .works .graphic a{
+  text-decoration: none;
+}
+
+.work .porfolio .works .graphics{
+  margin-bottom: 20px;
+}
+.work .porfolio .works .graphic h3{
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  margin-bottom: 9px;
+  color: #8c8c8c;
+  font-weight: 500;
+  min-height: 82px;
+	padding: 0 7px;
+}
+.work .porfolio .works .graphics.tresd h3{
+  min-height: 40px;
+}
+.work .porfolio .works .graphic h3:hover{
+  color: black
+}
+.work .porfolio .works .graphic .imagen{
+  /* border: 1px solid #ffffff; */
+  border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+  margin-bottom: 10px;
+  transition: transform .5s;
+  font-size: 0;
+  filter:grayscale(20%);
+	overflow: hidden;
+}
+.work .porfolio .works .graphic .imagen:hover{
+ filter:grayscale(0%);
+}
+.work .porfolio .works .graphic .imagen img{
+  width: 100%;
+	transition: transform 2.0s;
+  max-width: 330px;
+  overflow: hidden;
+}
+.work .porfolio .works .graphic .imagen img:hover{
+  transform: scale(1.2) translate(0px,10px);
+
+  
+}
+.work .porfolio .works .graphic .tags{
+}
+.work .porfolio .works .graphic .tag{
+  background-color: #a2a1a1;
+  border-radius: 3px;
+  padding: 2px 10px;
+  color: #ffffff;
+  margin-left: 7px;
+  font-size: 0.7rem;
+  pointer-events: none;
+}
+.work .porfolio .works .graphic .idiomas{
+  color: #006abf;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+	padding-left: 7px;
+}
+.work .porfolio .works .graphic .idiomas .idioma{
+  color: #006abf;
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.work .porfolio .works .graphic .idiomas .idioma:hover{
+  text-decoration: underline;
+}
+/* ABOUT */
+.work .about{
+  max-width: 950px;
+  margin: 0 auto;
+  font-size: 0;
+}
+.work .about .left {
+  display: inline-block;
+  width: 70%;
+  vertical-align: top;
+  font-size: 0;
+}
+.work .about .left .photo{
+  display: inline-block;
+  width: 27%;
+  margin-right:5%;
+  vertical-align: top;
+}
+.work .about .left .photo img{
+  display: block;
+  width: 100%;
+  max-width: 235px;
+  margin-bottom: 10px;
+  margin-top:5px;
+  border-radius: 8px;
+}
+.work .about .left .photo .redes p{
+  text-align: right;
+}
+.work .about .left .photo .redes p a{
+  font-size: 0.8rem;
+  text-decoration: none;
+  font-weight: 500;
+  color: #006abf;
+}
+.work .about .left .resume{
+  display: inline-block;
+  width: 60%;
+  vertical-align: top;
+}
+.work .about .left .resume p{
+  font-size: 1rem;
+  margin-bottom:15px;
+  line-height: 1.8rem;
+}
+.work .about .left .resume p a{
+  text-decoration: none;
+  color: #006abf;
+  font-weight: 600;
+}
+.work .about .right {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  margin-bottom: 80px;
+}
+.work .about .right .bloque{
+  margin-bottom: 20px;
+}
+.work .about .right .bloque .tag{
+display: inline-block;
+background-color: #006abf;
+border-radius: 3px;
+padding: 2px 10px;
+color: #ffffff;
+margin-right: 10px;
+margin-bottom: 12px;
+font-size: 0.9rem;
+}
+.work .about .right .bloque p{
+color: #868686;
+font-size: 0.9rem;
+margin-bottom: 5px;
+line-height: 1.3rem;
+}
+.work .about .right .bloque .estrellasYtools{
+width: 100%;
+font-size: 0;
+
+}
+.work .about .right .bloque .estrellasYtools .estrellas{
+width: 17%;
+display: inline-block;
+vertical-align: top;
+text-align: right;
+margin-right: 3%;
+}
+.work .about .right .bloque .estrellasYtools .estrellas p{
+font-size: 0.6rem;
+color: #006abf;
+}
+.work .about .right .bloque .estrellasYtools .tools{
+width: 80%;
+display: inline-block;
+vertical-align: top;
+}
+.work .about .right .bloque .estrellasYtools .tools p{
+  font-size: 0.8rem;
+}
+
+@media (max-width:900px) {
+  .work .header .bottom .nombre{
+    font-size: 2rem;
+    }
+  .work .porfolio {
+    width: 100%;
+    /* margin: 0 auto; */
+    max-width: 320px;
+}
+  .work .porfolio .works .graphic {
+    max-width: 315px;
+    margin-right: 0px;
+}
+  .work .porfolio .works .graphic .imagen img {
+    max-width: 315px;
+  }
+  .work .about .left {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .work .about .right {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 335px;
+    margin-bottom: 100px;
+}
+  .work .about .left .resume {
+    margin-bottom: 15px;
+  }
+  .work .about .right .bloque .estrellasYtools .estrellas {
+    width: 14%;
+  }
+}
+
+@media (max-width:850px) {
+  .work .about .left {
+    width: 100%;
+  }
+  .work .about .left .photo{
+    display: block;
+    width: 100%;
+    max-width: 335px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 0;
+  }
+  .work .about .left .photo img {
+    display: inline-block;
+    width: 100%;
+    max-width: 120px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 7px;
+  }
+  .work .about .left .photo .redes{
+    display: inline-block;
+    vertical-align: top;
+  }
+  .work .about .left .photo .redes p{
+    text-align: left;
+  }
+  .work .about .left .resume {
+    display: block;
+    width: 100%;
+    max-width: 335px;
+    margin: 0 auto;
+  }
+  
+ 
+}
+
+img.pildora {
+  display: inline-block;
+  width: 100%;
+  max-width: 23px;
+  vertical-align: bottom;
+}
+
+span.award{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.8rem;
+  color: #c39f00;
+  display: block;
+  padding: 0 7px;
+  margin-bottom: 10px;
+  }
+
+.work .porfolio .works .graphic h3.first{
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  margin-bottom: 10px;
+  color: #8c8c8c;
+  font-weight: 500;
+  min-height: 0;
+	padding: 0 7px;
+}
