@@ -1,0 +1,4 @@
+### Mariano Zafra Personal Porfolio
+
+ 
+I currently work as a Senior Graphics Editor at Reuters Graphics, where I'm part of one of the most awarded teams in the world. Prior to this, from 2019 to 2023, I led the Graphic and Storytelling team at El País in Madrid. Earlier, I spent four years as a Graphics Reporter for special projects at The Wall Street Journal in New York, and initiated and led the Infographic and Data Visualization Department at Univision News in Miami. Before moving to the United States, I spent fourteen years at two of the most prominent national daily newspapers in Spain: El Mundo and El País.
