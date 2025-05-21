@@ -203,6 +203,7 @@
 
 
 }
+
 .work .porfolio .works .graphic .imagen video:hover {
   transform: scale(1.2) translate(0px, 10px);
 
@@ -450,13 +451,18 @@ img.pildora {
 }
 
 span.award {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 0.8rem;
-  color: #c39f00;
+  font-family: 'Quicksand', sans-serif !important;
+  font-size: 0.8rem !important;
+  color: #c39f00 !important;
   display: block;
   padding: 0 7px;
   margin-bottom: 10px;
+  text-decoration: none !important;
+  font-weight: normal !important;
 }
+
+
+
 
 .work .porfolio .works .graphic h3.first {
   font-size: 0.9rem;
